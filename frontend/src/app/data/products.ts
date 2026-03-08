@@ -1,0 +1,58 @@
+import { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Pastel Dreams Blanket',
+    description: 'Handcrafted cozy crochet blanket in soft pastel colors, perfect for gifting',
+    price: 89.99,
+    image: 'https://images.unsplash.com/photo-1705872534499-5f7ba5b1bfd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcm9jaGV0JTIwYmxhbmtldCUyMHBhc3RlbCUyMGNvbG9yc3xlbnwxfHx8fDE3NzE5MTQ3Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'Blankets',
+    inStock: true,
+  },
+  {
+    id: '2',
+    name: 'Artisan Storage Basket',
+    description: 'Beautiful handwoven crochet basket for home organization',
+    price: 45.99,
+    image: 'https://images.unsplash.com/photo-1759390834057-324eab2210fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcm9jaGV0JTIwYmFza2V0JTIwaG9tZSUyMGRlY29yfGVufDF8fHx8MTc3MTkxNDcyOHww&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'Home Decor',
+    inStock: true,
+  },
+  {
+    id: '3',
+    name: 'Bloom Flower Bouquet',
+    description: 'Everlasting crochet flower arrangement, a thoughtful gift',
+    price: 34.99,
+    image: 'https://images.unsplash.com/photo-1529616818894-dab2ed1a1596?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcm9jaGV0JTIwZmxvd2VycyUyMGJvdXF1ZXR8ZW58MXx8fHwxNzcxODM4NTM2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'Gifts',
+    inStock: true,
+  },
+  {
+    id: '4',
+    name: 'Boho Crochet Tote',
+    description: 'Stylish handmade crochet bag for everyday use',
+    price: 52.99,
+    image: 'https://images.unsplash.com/photo-1770637266187-60cf9d509593?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcm9jaGV0JTIwYmFnJTIwaGFuZG1hZGUlMjBjcmFmdHxlbnwxfHx8fDE3NzE5MTQ3Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'Bags',
+    inStock: true,
+  },
+  {
+    id: '5',
+    name: 'Cuddle Buddy Amigurumi',
+    description: 'Adorable handcrafted crochet toy, perfect for children',
+    price: 28.99,
+    image: 'https://images.unsplash.com/photo-1723719121605-5623e3a4f538?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcm9jaGV0JTIwdG95cyUyMGFtaWd1cnVtaXxlbnwxfHx8fDE3NzE5MTQ3Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'Toys',
+    inStock: true,
+  },
+  {
+    id: '6',
+    name: 'Colorful Delight Set',
+    description: 'Vibrant crochet accessories set, handmade with love',
+    price: 64.99,
+    image: 'https://images.unsplash.com/photo-1734526742761-11440b15f0cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYW5kbWFkZSUyMGNyb2NoZXQlMjBpdGVtcyUyMGNvbG9yZnVsfGVufDF8fHx8MTc3MTkxNDcyN3ww&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'Accessories',
+    inStock: true,
+  },
+];
